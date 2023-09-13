@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">s
+    <link rel="stylesheet" href="style.css">
     <title>R-P-G</title>
 </head>
 <body>
@@ -11,9 +11,10 @@
         <h1>Generate a<br><span>Random Password</span></h1>
         <div class="display">
             <input type="text" id="password" placeholder="Password">
-            <img src="Images/copy-icon.svg">
+            <img onclick="copyPassword()"  src="Images/copy-icon.svg">
         </div>
-        <button><img src="Images/lightning.png">Generate Password</button>
+        <button onclick="createPassword()"><img src="Images/lightning.png">Generate Password</button>
     </div>
+<script src="script.js"></script>
 </body>
 </html>
